@@ -1,0 +1,51 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    position: relative;
+    background-color: #F0F1EC;
+}
+#background{
+    background-color: grey;
+    display: grid;
+    grid-template-columns: repeat(20,1fr);
+    grid-template-rows: repeat(20,1fr);
+    width: 92vmin;
+    height: 92vmin;
+}
+
+.snake{
+    background-color: sandybrown;
+    border: 2px solid black;
+    border-radius: 15%;
+}
+.food{
+    background-color: red;
+    border: 5px solid black;
+}
+.head{
+    background-color: greenyellow;
+    border: 2px solid green;
+    border-radius: 25%;
+}
+.score{
+    text-align: center;
+    font-size: xx-large;
+    color: white;
+    position: absolute;
+    top: 50px;
+}
+.obs{
+    background-color: brown;
+    border: 5px solid black;
+}
+
+.portal{
+    background-color: cadetblue;
+    border: 5px dashed blue;
+}
